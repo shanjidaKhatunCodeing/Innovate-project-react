@@ -1,9 +1,12 @@
 import React from 'react'
 
 const Heading = (props) => {
-  return (
-    <props.as className={props.style}>{props.text}</props.as>
-  )
+  let patternt = /#([^#]+)#/g
+  let findtext = props.text.replace(patternt, "<span class='one'>$1</span>");
+    return (
+      <props.as className={props.style} dangerouslySetInnerHTML={{ __html: findtext }}></props.as>
+    )
+
   }
   
 

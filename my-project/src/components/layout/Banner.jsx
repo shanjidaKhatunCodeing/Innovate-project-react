@@ -18,7 +18,7 @@ const Banner = () => {
             </div>
             <div className='w-1/2'>
                 <Image src={group}/>
-                <Heading style="font-open text-[60px] font-bold" text="We Are Digital Marketing Agency" as="h1"/>
+                <Heading style="font-open text-[60px] font-bold" text="We Are Digital #Marketing# Agency" as="h1"/>
                 <Paragraph style="font-open text-xl text-paraColo leading-9 " text="Use customer data to build great and solid product"/>
                 <Paragraph style="font-open text-xl text-paraColo leading-9 " text="experiences that convert. Digital marketing’s"/>
                 <Paragraph style="font-open text-xl text-paraColo leading-9 " text="development has changed the way brands and "/>
