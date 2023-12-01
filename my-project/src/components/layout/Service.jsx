@@ -23,7 +23,7 @@ const Service = () => {
             <div className='py-[55px]'>
               <Flex style='justify-between'>
                   <div className='w-[30%] text-center bg-sCardBgColor rounded-lg shadow-md p-6 hover:bg-sCardHoverColor'>
-                    <Card imgStyle="inline-block pb-[20px]" src={services1} title="Marketing Strategy" style="text-3xl font-bold mb-4 " content="Social Media has changed the way we interact & do business while creating" className="text-[23px] text-paraColo leading-8 pb[50px] font-bold mb-4" text="Read More" aStyle="text-lg font-semibold relative after:absolute after:h-[30px] after:w-[30px] after:bg-bannerColo after:rounded-r-full  after:left-[65px] z-10 after:-z-10"/>
+                    <Card imgStyle="inline-block pb-[20px]" src={services1} title="Marketing Strategy" style="text-3xl font-bold mb-4 " content="Social Media has changed the way we interact & do business while creating" className="text-[23px] text-paraColo leading-8 font-bold mb-4" text="Read More" aStyle="text-lg font-semibold relative after:absolute after:h-[30px] after:w-[30px] after:bg-bannerColo after:rounded-r-full  after:left-[65px] z-10 after:-z-10"/>
 
                     
                   </div>

@@ -11,7 +11,7 @@ import banner2 from '../../assets/banner2.png'
 
 const Banner = () => {
   return (
-    <div className='py-[80px]'>
+    <div className='bg-bannerBg bg-cover bg-no-repeat bg-center py-[80px]'>
         <Flex style='justify-between'>
             <div className='w-1/4'>
                 <Image style="pl-[40px]" src={aniImg}/>

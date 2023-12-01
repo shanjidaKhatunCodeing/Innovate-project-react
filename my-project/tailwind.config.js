@@ -9,6 +9,7 @@ export default {
       fontFamily: {
         open: ['Open Sans', 'sans-serif'],
         rob: ['Roboto', 'sans-serif'],
+        sans: ['Work Sans', 'sans-serif'],
       },
       colors: {
         bannerColo: '#FF7628',
@@ -18,9 +19,10 @@ export default {
         whoBgColor: '#FCF8F8',
         workBgColor: '#F0F5FB',
         processkBgColor: '#FEFEFE',
+        blogBgColor: '#F2F7FD',
     },
     backgroundImage: {
-      bannerBg: "url('../../assets/bannerBg.png')",
+      bannerBg: "url('../src/assets/bannerBg.png')",
     },
     },
   },

@@ -24,7 +24,7 @@ const Work = () => {
             
             <ul>
             <Flex>
-            <Worklist href="#" text="All"/>
+                <Worklist href="#" text="All"/>
                 <Worklist href="#" text="Branding"/>
                 <Worklist href="#" text="Content Mkt"/>
                 <Worklist href="#" text="Social Media Mkt"/>
